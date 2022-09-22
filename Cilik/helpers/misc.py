@@ -70,9 +70,9 @@ def git():
         UPSTREAM_REPO = REPO_URL
     try:
         repo = Repo()
-        LOGGER("Cilik").info(f"Git Client Found")
+        LOGGER("Bion").info(f"Git Client Found")
     except GitCommandError:
-        LOGGER("Cilik").info(f"Invalid Git Command")
+        LOGGER("Bion").info(f"Invalid Git Command")
     except InvalidGitRepositoryError:
         repo = Repo.init()
         if "origin" in repo.remotes:
@@ -97,7 +97,7 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -U -r requirements.txt")
-        LOGGER("Cilik").info("Fetched Latest Updates")
+        LOGGER("Bion").info("Fetched Latest Updates")
 
 
 def is_heroku():
@@ -111,7 +111,7 @@ def heroku():
             try:
                 Heroku = heroku3.from_key(HEROKU_API_KEY)
                 HAPP = Heroku.app(HEROKU_APP_NAME)
-                LOGGER("Cilik").info(f"Heroku App Configured")
+                LOGGER("Bion").info(f"Heroku App Configured")
             except BaseException as e:
                 LOGGER("Heroku").error(e)
                 LOGGER("Heroku").info(
@@ -126,12 +126,12 @@ async def in_heroku():
 async def create_botlog(client):
     if HAPP is None:
         return
-    LOGGER("Cilik").info(
+    LOGGER("Bion").info(
         "TUNGGU SEBENTAR. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK ANDA"
     )
-    desc = "Group Log untuk Cilik-Ubot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n⚡ Powered By ~ @CilikProject ⚡"
+    desc = "Group Log untuk Bion-PyroBot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n⚡ Powered By ~ @CilikProject ⚡"
     try:
-        gruplog = await client.create_supergroup("⚡ Cilik-Logs ⚡", desc)
+        gruplog = await client.create_supergroup("⚡ Bion-L0gs ⚡", desc)
         if await in_heroku():
             heroku_var = HAPP.config()
             heroku_var["BOTLOG_CHATID"] = gruplog.id
