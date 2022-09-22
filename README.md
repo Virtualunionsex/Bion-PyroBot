@@ -1,15 +1,13 @@
-<h1 align="center"> 
-   🎈 Cilik-Ubot 🎈
-</h1>
+<img src="https://telegra.ph/file/fee99982ddbd1759c8aa8.jpg" align="right" width="200" height="200"/>
 
-<p align="center">
-  <a href="#"><img src="https://telegra.ph/file/d20fc177ac0cb0136d942.jpg" width="300" height="300"></a> </br>
-</p>
+# Bion-PyroBot <img src="https://img.shields.io/github/v/release/grey423/CilikMusic?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+
+[Bion-PyroBot](https://github.com/BionXP/Bion-PyroBot) adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram
 
 ## Deploy With Heroku 💌
 
 <p align="left">
-<a href="https://telegram.dog/XTZ_HerokuBot?start=Z3JleTQyMy9DaWxpay1VYm90IG1haW4"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/</a>  
+<a href="https://telegram.dog/XTZ_HerokuBot?start=QmlvblhQL0Jpb24tUHlyb0JvdCBtYWlu"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/</a>  
 
 ### Generate  String Sessions
 
@@ -26,6 +24,7 @@
 
 ## 👨🏻‍💻 Credits
 
+-  [Cilik-Ubot](https://github.com/grey423/Cilik-Ubot) : Cilik-Ubot
 -  [PyroMan](https://github.com/mrismanaziz/PyroMan-Userbot) : PyroMan-Userbot
 -  [TeamDerUntergang](https://github.com/TeamDerUntergang/Telegram-SedenUserBot) : SedenUserBot
 -  [TheHamkerCat](https://github.com/TheHamkerCat/WilliamButcherBot) : WilliamButcherBot
@@ -38,5 +37,5 @@
 This repository is license under [GPL-3 License](https://github.com/grey423/Cilik-Ubot/blob/master/LICENSE)
 <p align="Left">
   </br>
-  <b>Copyright (c) 2022 - grey423 | Cilik-Ubot</b>
+  <b>Copyright (c) 2022 - BionXP | Bion-PyroBot</b>
 </p>
