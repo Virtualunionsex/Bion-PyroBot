@@ -12,8 +12,8 @@ from pyrogram import idle
 from uvloop import install
 
 from config import BOT_VER
-from Cilik import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bot1, bots
-from Cilik.helpers.misc import create_botlog, git, heroku
+from Bion import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bot1, bots
+from Bion.helpers.misc import create_botlog, git, heroku
 
 MSG_ON = """
 ✅ **Bion-PyroBot Activated.**
@@ -30,7 +30,8 @@ async def main():
             await bot.join_chat("Lunatic0de")
             await bot.join_chat("SharingUserbot")
             await bot.join_chat("CilikSupport")
-            await bot.join_chat("CilikiProject")            
+            await bot.join_chat("CilikProject") 
+            await bot.join_chat("ZennXSupport")                        
             try:
                 await bot.send_message(
                     BOTLOG_CHATID, MSG_ON.format(BOT_VER)
