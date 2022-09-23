@@ -14,7 +14,7 @@ _starter () {
     cd Bion-PyroBot/ && rm -rf .git
     python3 ../updater.py ../requirements.txt requirements.txt
     echo "Bion-PyroBot v0.2.0, Copyright © 2022 (Grey) <https://github.com/grey423>"
-    python3 -m Cilik
+    python3 -m Bion
 }
 
 _starter
