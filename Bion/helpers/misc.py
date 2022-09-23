@@ -18,7 +18,7 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 
 from config import BRANCH, GIT_TOKEN, HEROKU_API_KEY, HEROKU_APP_NAME
-from Cilik import LOGGER
+from Bion import LOGGER
 
 HAPP = None
 
@@ -129,7 +129,7 @@ async def create_botlog(client):
     LOGGER("Bion").info(
         "TUNGGU SEBENTAR. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK ANDA"
     )
-    desc = "Group Log untuk Bion-PyroBot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n⚡ Powered By ~ @CilikProject ⚡"
+    desc = "Group Log untuk Bion-PyroBot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n⚡ Powered By ~ @ZennXSupport ⚡"
     try:
         gruplog = await client.create_supergroup("⚡ Bion-L0gs ⚡", desc)
         if await in_heroku():
@@ -139,6 +139,6 @@ async def create_botlog(client):
             path = dotenv.find_dotenv("config.env")
             dotenv.set_key(path, "BOTLOG_CHATID", gruplog.id)
     except Exception:
-        LOGGER("Cilik").warning(
+        LOGGER("Bion").warning(
             "var BOTLOG_CHATID kamu belum di isi. Buatlah grup telegram dan masukan bot @GreyCilik_bot lalu ketik /id Masukan id grup nya di var BOTLOG_CHATID"
         )
