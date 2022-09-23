@@ -33,7 +33,7 @@ GIT_TOKEN = getenv(
         "utf-8"
     ),
 )
-GROUP = getenv("GROUP", "CilikSupport")
+GROUP = getenv("GROUP", "ZennXSupport")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
