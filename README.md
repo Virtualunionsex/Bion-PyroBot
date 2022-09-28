@@ -12,7 +12,7 @@
 ### Generate  String Sessions
 
 <p align="left">
-<a href="https://t.me/StringCilik_Bot"><img src="https://img.shields.io/badge/Generate%20String-blue?style=for-the-badge&logo=telegram" width="175""/</a>  </p>
+<a href="https://t.me/ZenStringRobot"><img src="https://img.shields.io/badge/Generate%20String-blue?style=for-the-badge&logo=telegram" width="175""/</a>  </p>
 
 ## Config Vars 📑
 
